@@ -1,0 +1,10 @@
+<h1>Hi!</h1>
+
+<ul>
+    {% for image in images %}
+    <a href="test/">
+        <img width=200px src="{{image.header_image.url}}">
+    </a>
+    <!-- <li><a href="/recipes/{{recipe.id}}/">{{recipe.title}}</a></li> -->
+    {% endfor %}
+</ul>
